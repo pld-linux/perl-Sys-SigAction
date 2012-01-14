@@ -7,13 +7,13 @@
 %define	pnam	SigAction
 Summary:	Sys::SigAction - Perl extension for Consistent Signal Handling
 Name:		perl-Sys-SigAction
-Version:	0.11
+Version:	0.15
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sys/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e37f1e69d6ac6ea4a9ffd7f845753e79
+# Source0-md5:	54789a1893f63c2345b1014fcb7c47a7
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
