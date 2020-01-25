@@ -4,7 +4,6 @@
 
 %define	pdir	Sys
 %define	pnam	SigAction
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sys::SigAction - Perl extension for Consistent Signal Handling
 Name:		perl-Sys-SigAction
 Version:	0.23
